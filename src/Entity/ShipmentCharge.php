@@ -15,28 +15,28 @@ class ShipmentCharge
     /**
      * @var string
      */
-    private $type;
+    public $type;
 
     /**
      * @var BillShipper
      */
-    private $billShipper;
+    public $billShipper;
 
     /**
      * @var BillReceiver
      * TODO not implemented yet
      */
-    private $billReceiver;
+    public $billReceiver;
 
     /**
      * @var BillThirdParty
      */
-    private $billThirdParty;
+    public $billThirdParty;
 
     /**
      * @var bool
      */
-    private $consigneeBilled;
+    public $consigneeBilled;
 
     public function __construct($attributes = null)
     {

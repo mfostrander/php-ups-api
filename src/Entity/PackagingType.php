@@ -63,12 +63,12 @@ class PackagingType implements NodeInterface
      *
      * @var string
      */
-    private $code = self::PT_UNKNOWN;
+    public $code = self::PT_UNKNOWN;
 
     /**
      * @var string
      */
-    private $description;
+    public $description;
 
     public function __construct($attributes = null)
     {

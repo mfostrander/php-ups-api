@@ -8,7 +8,7 @@ class EstimatedArrival
 {
     use EstimatedArrivalTrait;
 
-    protected $businessDaysInTransit;
+    public $businessDaysInTransit;
 
     /**
      * @param \stdClass|null $response

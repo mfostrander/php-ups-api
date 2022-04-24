@@ -14,12 +14,12 @@ class Arrival
     /**
      * @var string
      */
-    private $date;
+    public $date;
 
     /**
      * @var string
      */
-    private $time;
+    public $time;
 
     /**
      * @param \stdClass|null $response

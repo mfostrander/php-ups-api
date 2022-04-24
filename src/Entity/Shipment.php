@@ -7,126 +7,126 @@ class Shipment
     /**
      * @var PaymentInformation
      */
-    private $paymentInformation;
+    public $paymentInformation;
 
     /**
      * @var ItemizedPaymentInformation
      */
-    private $itemizedPaymentInformation;
+    public $itemizedPaymentInformation;
 
     /**
      * @var RateInformation
      */
-    private $rateInformation;
+    public $rateInformation;
 
     /**
      * @var string
      */
-    private $description;
+    public $description;
 
     /**
      * @var Shipper
      */
-    private $shipper;
+    public $shipper;
 
     /**
      * @var ShipTo;
      */
-    private $shipTo;
+    public $shipTo;
 
     /**
      * @var SoldTo
      */
-    private $soldTo;
+    public $soldTo;
 
     /**
      * @var ShipFrom
      */
-    private $shipFrom;
+    public $shipFrom;
 
     /**
      * @var AlternateDeliveryAddress
      */
-    private $alternateDeliveryAddress;
+    public $alternateDeliveryAddress;
 
     /**
      * @var ShipmentIndicationType
      */
-    private $shipmentIndicationType;
+    public $shipmentIndicationType;
 
     /**
      * @var Service
      */
-    private $service;
+    public $service;
 
     /**
      * @var ReturnService
      */
-    private $returnService;
+    public $returnService;
 
     /**
      * @var bool
      */
-    private $documentsOnly;
+    public $documentsOnly;
 
     /**
      * @var Package[]
      */
-    private $packages = [];
+    public $packages = [];
 
     /**
      * @var ReferenceNumber
      */
-    private $referenceNumber;
+    public $referenceNumber;
 
     /**
      * @var ReferenceNumber
      */
-    private $referenceNumber2;
+    public $referenceNumber2;
 
     /**
      * @var ShipmentServiceOptions
      */
-    private $shipmentServiceOptions;
+    public $shipmentServiceOptions;
 
     /**
      * @var bool
      */
-    private $goodsNotInFreeCirculationIndicator;
+    public $goodsNotInFreeCirculationIndicator;
 
     /**
      * @var string
      */
-    private $movementReferenceNumber;
+    public $movementReferenceNumber;
 
     /**
      * @var InvoiceLineTotal
      */
-    private $invoiceLineTotal;
+    public $invoiceLineTotal;
 
     /**
      * @var ShipmentTotalWeight
      */
-    private $shipmentTotalWeight;
+    public $shipmentTotalWeight;
 
     /**
      * @var string
      */
-    private $numOfPiecesInShipment;
+    public $numOfPiecesInShipment;
 
     /**
      * @var DeliveryTimeInformation
      */
-    private $deliveryTimeInformation;
+    public $deliveryTimeInformation;
     /**
      * @var bool
      */
-    private $taxInformationIndicator;
+    public $taxInformationIndicator;
 
     /**
      * @var string
      */
-    private $locale;
+    public $locale;
 
     public function __construct()
     {

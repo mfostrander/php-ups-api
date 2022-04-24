@@ -11,7 +11,7 @@ class ServiceSummary
     /**
      * @var
      */
-    protected $estimatedArrival;
+    public $estimatedArrival;
 
     /**
      * @param \stdClass|null $response

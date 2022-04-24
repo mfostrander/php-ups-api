@@ -60,117 +60,117 @@ class Address implements NodeInterface
     /**
      * @var string
      */
-    private $addressLine1;
+    public $addressLine1;
 
     /**
      * @var string
      */
-    private $addressLine2;
+    public $addressLine2;
 
     /**
      * @var string
      */
-    private $addressLine3;
+    public $addressLine3;
 
     /**
      * @var string
      */
-    private $city;
+    public $city;
 
     /**
      * @var string
      */
-    private $stateProvinceCode;
+    public $stateProvinceCode;
 
     /**
      * @var string
      */
-    private $postalCode;
+    public $postalCode;
 
     /**
      * @var string
      */
-    private $countryCode;
+    public $countryCode;
 
     /**
      * @var string
      */
-    private $politicalDivision1;
+    public $politicalDivision1;
 
     /**
      * @var string
      */
-    private $politicalDivision2;
+    public $politicalDivision2;
 
     /**
      * @var string
      */
-    private $politicalDivision3;
+    public $politicalDivision3;
 
     /**
      * @var string
      */
-    private $postcodePrimaryLow;
+    public $postcodePrimaryLow;
 
     /**
      * @var string
      */
-    private $postcodePrimaryHigh;
+    public $postcodePrimaryHigh;
 
     /**
      * @var string
      */
-    private $postcodeExtendedLow;
+    public $postcodeExtendedLow;
 
     /**
      * @var string
      */
-    private $residentialAddressIndicator;
+    public $residentialAddressIndicator;
 
     /**
      * @var string
      */
-    private $consigneeName;
+    public $consigneeName;
 
     /**
      * @var string
      */
-    private $streetNumberLow;
+    public $streetNumberLow;
 
     /**
      * @var string
      */
-    private $streetPrefix;
+    public $streetPrefix;
 
     /**
      * @var string
      */
-    private $streetName;
+    public $streetName;
 
     /**
      * @var string
      */
-    private $streetType;
+    public $streetType;
 
     /**
      * @var string
      */
-    private $streetSuffix;
+    public $streetSuffix;
 
     /**
      * @var string
      */
-    private $buildingName;
+    public $buildingName;
 
     /**
      * @var string
      */
-    private $attentionName;
+    public $attentionName;
 
     /**
      * @var array
      */
-    private $addressExtendedInformation = [];
+    public $addressExtendedInformation = [];
 
     /**
      * @param null|object $attributes

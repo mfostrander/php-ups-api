@@ -16,12 +16,12 @@ class InsuredValue implements NodeInterface
     /**
      * @var string
      */
-    private $currencyCode;
+    public $currencyCode;
 
     /**
      * @var float
      */
-    private $monetaryValue;
+    public $monetaryValue;
 
     public function __construct($response = null)
     {
