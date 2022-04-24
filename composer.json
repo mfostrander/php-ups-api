@@ -1,5 +1,5 @@
 {
-  "name": "gabrielbull/ups-api",
+  "name": "mfostrander/php-ups-api",
   "type": "library",
   "description": "PHP UPS API",
   "keywords": [
