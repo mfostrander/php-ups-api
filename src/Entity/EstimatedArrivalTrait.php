@@ -4,14 +4,14 @@ namespace Ups\Entity;
 
 trait EstimatedArrivalTrait
 {
-    private $Arrival;
-    private $Pickup;
-    private $DayOfWeek;
-    private $CustomerCenterCutoff;
-    private $DelayCount;
-    private $HolidayCount;
-    private $RestDays;
-    private $TotalTransitDays;
+    public $Arrival;
+    public $Pickup;
+    public $DayOfWeek;
+    public $CustomerCenterCutoff;
+    public $DelayCount;
+    public $HolidayCount;
+    public $RestDays;
+    public $TotalTransitDays;
 
     /**
      * @param \stdClass|null $response

@@ -19,18 +19,18 @@ trait ServiceSummaryTrait
     /**
      * @var Service
      */
-    protected $service;
+    public $service;
 
     /**
      * @var Guaranteed
      */
-    protected $guaranteed;
+    public $guaranteed;
 
     /** @var mixed  */
-    protected $saturdayDelivery;
+    public $saturdayDelivery;
 
     /** @var mixed  */
-    protected $saturdayDeliveryDisclaimer;
+    public $saturdayDeliveryDisclaimer;
 
     /**
      * @param \stdClass|null $response
