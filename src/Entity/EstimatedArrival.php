@@ -14,11 +14,11 @@ class EstimatedArrival
     const EA_SATURDAY = 'SAT';
     // Sunday is an invalid day :-)
 
-    private $BusinessTransitDays;
-    private $Time;
-    private $PickupDate;
-    private $PickupTime;
-    private $Date;
+    public $BusinessTransitDays;
+    public $Time;
+    public $PickupDate;
+    public $PickupTime;
+    public $Date;
 
     /**
      * @param \stdClass|null $response
